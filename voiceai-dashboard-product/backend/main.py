@@ -36,8 +36,6 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 # Initialize database tables on first startup
 db_initialized = False
-# Initialize database tables on first startup
-db_initialized = False
 
 def init_db():
     global db_initialized, engine
