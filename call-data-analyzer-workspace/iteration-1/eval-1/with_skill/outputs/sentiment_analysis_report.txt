@@ -1,0 +1,122 @@
+================================================================================
+CALL DATA ANALYZER - SENTIMENT ANALYSIS REPORT
+================================================================================
+
+OVERALL STATISTICS
+--------------------------------------------------------------------------------
+Total Calls Analyzed: 5386
+Analysis Date: May 2026
+
+SENTIMENT DISTRIBUTION
+  Neutral: 2346 calls (43.6%)
+  Negative: 1956 calls (36.3%)
+  Positive: 1084 calls (20.1%)
+
+ISSUE CATEGORY ANALYSIS - SORTED BY NEGATIVE SENTIMENT
+--------------------------------------------------------------------------------
+Unknown              | Calls:     6 | Negative:    6 (100.0%) | CSAT: nan
+Payment Issue        | Calls:     2 | Negative:    2 (100.0%) | CSAT: 3.0
+Payment Deducted but Order Not Created | Calls:     1 | Negative:    1 (100.0%) | CSAT: 2.0
+Refund / Wrong Item  | Calls:     2 | Negative:    2 (100.0%) | CSAT: 3.0
+Payment Confirmation / Missing Order | Calls:     2 | Negative:    2 (100.0%) | CSAT: 3.0
+Wrong Item / Address Error | Calls:     2 | Negative:    2 (100.0%) | CSAT: 4.0
+Shipping / OTP Verification | Calls:     2 | Negative:    2 (100.0%) | CSAT: 2.0
+Order Cancellation   | Calls:     4 | Negative:    4 (100.0%) | CSAT: 2.5
+Order Cancellation / Return | Calls:     2 | Negative:    2 (100.0%) | CSAT: 2.0
+Wrong Item / Incorrect Address | Calls:     2 | Negative:    2 (100.0%) | CSAT: 3.0
+Account Update       | Calls:     2 | Negative:    2 (100.0%) | CSAT: 3.0
+Replacement / Wrong Item | Calls:     2 | Negative:    2 (100.0%) | CSAT: 2.0
+Login/OTP Issue      | Calls:     2 | Negative:    2 (100.0%) | CSAT: 2.0
+Damaged Item / Refund | Calls:     2 | Negative:    2 (100.0%) | CSAT: 3.0
+Exchange / Payment Clarification | Calls:     1 | Negative:    1 (100.0%) | CSAT: 2.0
+Refund / Pricing Discrepancy | Calls:     2 | Negative:    2 (100.0%) | CSAT: 3.0
+Return / Damaged Item | Calls:     2 | Negative:    2 (100.0%) | CSAT: 2.0
+Wrong Item / Pricing Error | Calls:     2 | Negative:    2 (100.0%) | CSAT: 3.0
+Exchange Delay       | Calls:     2 | Negative:    2 (100.0%) | CSAT: 3.0
+Return Cancellation  | Calls:     2 | Negative:    2 (100.0%) | CSAT: 2.0
+Payment Issue / Missing Order | Calls:     1 | Negative:    1 (100.0%) | CSAT: 3.0
+Refund and Shipping Delay | Calls:     1 | Negative:    1 (100.0%) | CSAT: 2.0
+Missing Order        | Calls:     7 | Negative:    5 ( 71.4%) | CSAT: 2.29
+Shipping Delay       | Calls:   424 | Negative:  295 ( 69.6%) | CSAT: 2.96
+Order Modification   | Calls:     3 | Negative:    2 ( 66.7%) | CSAT: 2.0
+Other                | Calls:   199 | Negative:  130 ( 65.3%) | CSAT: 1.87
+Missing Item         | Calls:   159 | Negative:   95 ( 59.7%) | CSAT: 3.08
+Refund               | Calls:   175 | Negative:  102 ( 58.3%) | CSAT: 2.94
+Wrong Item           | Calls:   106 | Negative:   58 ( 54.7%) | CSAT: 3.37
+Missing Items        | Calls:   143 | Negative:   74 ( 51.7%) | CSAT: 3.23
+Refund / Replacement | Calls:     4 | Negative:    2 ( 50.0%) | CSAT: 3.0
+Cancellation         | Calls:   128 | Negative:   60 ( 46.9%) | CSAT: 3.11
+Address Change       | Calls:     3 | Negative:    1 ( 33.3%) | CSAT: 3.67
+Order Tracking       | Calls:   329 | Negative:   84 ( 25.5%) | CSAT: 3.74
+Return               | Calls:     2 | Negative:    0 (  0.0%) | CSAT: 4.0
+Payment Failure      | Calls:     3 | Negative:    0 (  0.0%) | CSAT: 4.33
+Payment Confirmation | Calls:     1 | Negative:    0 (  0.0%) | CSAT: 5.0
+Order Issue / Promotional Code | Calls:     2 | Negative:    0 (  0.0%) | CSAT: 4.0
+Wrong Item / Shipping Delay | Calls:     2 | Negative:    0 (  0.0%) | CSAT: 4.0
+Product Inquiry      | Calls:     2 | Negative:    0 (  0.0%) | CSAT: 5.0
+Order Tracking / Refund | Calls:     2 | Negative:    0 (  0.0%) | CSAT: 4.0
+Order Confirmation / Payment Concern | Calls:     2 | Negative:    0 (  0.0%) | CSAT: 2.0
+Address Change / Cancellation | Calls:     2 | Negative:    0 (  0.0%) | CSAT: 4.0
+Return / Refund      | Calls:     2 | Negative:    0 (  0.0%) | CSAT: 5.0
+Return Pickup Delay  | Calls:     2 | Negative:    0 (  0.0%) | CSAT: 2.0
+Address Change Request | Calls:     2 | Negative:    0 (  0.0%) | CSAT: 5.0
+Return Issue         | Calls:     2 | Negative:    0 (  0.0%) | CSAT: 4.0
+Refund/Return        | Calls:     2 | Negative:    0 (  0.0%) | CSAT: 2.0
+Order Placement / Cart Issue | Calls:     2 | Negative:    0 (  0.0%) | CSAT: 2.0
+Damaged Item         | Calls:     2 | Negative:    0 (  0.0%) | CSAT: 3.0
+Return Request       | Calls:     2 | Negative:    0 (  0.0%) | CSAT: 4.0
+Address Update       | Calls:     2 | Negative:    0 (  0.0%) | CSAT: 4.0
+Partial Delivery     | Calls:     1 | Negative:    0 (  0.0%) | CSAT: 3.0
+Refund / Exchange    | Calls:     1 | Negative:    0 (  0.0%) | CSAT: 4.0
+Refund / Return Confusion | Calls:     1 | Negative:    0 (  0.0%) | CSAT: 2.0
+
+TOP FRICTION POINTS DRIVING NEGATIVE SENTIMENT
+--------------------------------------------------------------------------------
+ 1. [   2 calls,   0.1%]
+    Customer repeated non-receipt multiple times; escalation could not occur du...
+ 2. [   2 calls,   0.1%]
+    Customer repeatedly expressed frustration over non-delivery, demanded refun...
+ 3. [   2 calls,   0.1%]
+    Language confusion (Hindi vs English), unclear explanation of complaint pro...
+ 4. [   2 calls,   0.1%]
+    Bot failed to understand user's issue and produced tool errors; user switch...
+ 5. [   2 calls,   0.1%]
+    Customer showed mild frustration when told the order couldn’t be modified a...
+ 6. [   2 calls,   0.1%]
+    No customer response; conversation ended without engagement
+ 7. [   2 calls,   0.1%]
+    Multiple unresolved concerns about return and missing items; difficulty val...
+ 8. [   2 calls,   0.1%]
+    Customer repeatedly expressed urgency and frustration; the bot gave standar...
+ 9. [   2 calls,   0.1%]
+    User kept saying 'Hello' and appeared confused; conversation failed to esta...
+10. [   2 calls,   0.1%]
+    Customer frustration over lack of confirmed delivery date and inability to ...
+11. [   2 calls,   0.1%]
+    Customer repeatedly stated WhatsApp support was not working and expressed a...
+12. [   2 calls,   0.1%]
+    Bot could not locate the order in the system despite multiple attempts, lea...
+13. [   2 calls,   0.1%]
+    Customer confusion about contradictory refund and delivery updates; bot una...
+14. [   2 calls,   0.1%]
+    Repeated user frustration over automatic cancellations, bot unable to provi...
+15. [   2 calls,   0.1%]
+    User had language confusion and repeated 'Hello' due to unclear communicati...
+
+KEY FINDINGS FOR LEADERSHIP
+--------------------------------------------------------------------------------
+1. HIGHEST RISK ISSUE TYPE: Unknown
+   - 6/6 calls (100.0%) have negative sentiment
+   - Average CSAT: nan/5
+
+2. OVERALL SENTIMENT HEALTH: 36.3% negative sentiment
+   - 1956 of 5386 total calls classified as negative
+   - Average CSAT for negative sentiment: 2.67/5
+
+3. ESCALATION BURDEN: 655 negative sentiment calls escalated to humans
+   - Represents 33.5% of all negative sentiment calls
+
+4. BOT EFFECTIVENESS: 326 calls rated as Low effectiveness
+   - 208 of these were negative sentiment (63.8%)
+
+================================================================================

@@ -1,0 +1,23 @@
+{
+  "eval_id": 2,
+  "eval_name": "bot-scaling-decision-support",
+  "prompt": "Our voice AI bot is being scaled to other brands. Before we do that, I need to understand if the current implementation is actually helping customers or just frustrating them more. Can you analyze our call data and tell me - what's the resolution rate? What's the customer satisfaction? Which specific issues are causing the most problems? I need this in Excel format with call IDs so I can audit individual cases.",
+  "assertions": [
+    {
+      "name": "metrics-clearly-presented",
+      "description": "Excel includes resolution rate, CSAT, and issue breakdown metrics",
+      "check_method": "has_summary_statistics"
+    },
+    {
+      "name": "call-auditing-enabled",
+      "description": "Call IDs present for drilling into individual cases",
+      "check_method": "sheet_has_rows_with_call_ids"
+    },
+    {
+      "name": "negative-sentiment-identified",
+      "description": "Negative sentiment calls are clearly flagged for review",
+      "check_method": "sheet_exists",
+      "sheet": "Negative Sentiment"
+    }
+  ]
+}

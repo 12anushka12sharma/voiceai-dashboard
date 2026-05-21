@@ -1,0 +1,23 @@
+{
+  "skill_name": "call-data-analyzer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I have a CSV file with 5,386 voice bot calls for an e-commerce support system. The data includes call duration, issue category, resolution status, CSAT scores, and friction points. I need to understand customer sentiment patterns - specifically which issue types are driving the most negative sentiment and why. Can you analyze this and give me an Excel report I can share with the leadership team?",
+      "expected_output": "Multi-sheet Excel workbook with issue type breakdown showing sentiment by category, CSAT correlation, and call references for negative sentiment calls. Summary statistics showing overall negative sentiment percentage.",
+      "files": ["combined_analysis_data.csv"]
+    },
+    {
+      "id": 2,
+      "prompt": "Our voice AI bot is being scaled to other brands. Before we do that, I need to understand if the current implementation is actually helping customers or just frustrating them more. Can you analyze our call data and tell me - what's the resolution rate? What's the customer satisfaction? Which specific issues are causing the most problems? I need this in Excel format with call IDs so I can audit individual cases.",
+      "expected_output": "Excel workbook with call-by-call analysis including call IDs, sentiment analysis, CSAT scores by issue type, negative sentiment details with friction points, and summary metrics showing resolution rate and satisfaction trends.",
+      "files": ["combined_analysis_data.csv"]
+    },
+    {
+      "id": 3,
+      "prompt": "I'm building a dashboard to monitor our support bot's performance daily. I need to analyze a fresh batch of call data and get metrics like: what percentage are negative sentiment? How many calls are actually getting resolved? What's the CSAT distribution? Which issues should I focus on first? Please provide Excel output that I can ingest into my dashboard.",
+      "expected_output": "Excel workbook with structured sheets for Summary Statistics, Issue Type Analysis with negative sentiment percentages, CSAT distribution, and detailed call data with sentiment and resolution status for dashboard integration.",
+      "files": ["combined_analysis_data.csv"]
+    }
+  ]
+}

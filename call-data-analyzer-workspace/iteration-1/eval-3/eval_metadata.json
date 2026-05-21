@@ -1,0 +1,25 @@
+{
+  "eval_id": 3,
+  "eval_name": "dashboard-monitoring-integration",
+  "prompt": "I'm building a dashboard to monitor our support bot's performance daily. I need to analyze a fresh batch of call data and get metrics like: what percentage are negative sentiment? How many calls are actually getting resolved? What's the CSAT distribution? Which issues should I focus on first? Please provide Excel output that I can ingest into my dashboard.",
+  "assertions": [
+    {
+      "name": "structured-for-ingestion",
+      "description": "Excel format suitable for dashboard/BI tool ingestion",
+      "check_method": "file_format_is_xlsx"
+    },
+    {
+      "name": "kpi-summary-sheet",
+      "description": "Summary Statistics sheet provides key metrics for dashboard headers",
+      "check_method": "sheet_exists",
+      "sheet": "Summary Statistics"
+    },
+    {
+      "name": "issue-prioritization-data",
+      "description": "Issue Type Analysis shows which issues to focus on first (sorted by impact)",
+      "check_method": "sheet_has_column",
+      "sheet": "Issue Type Analysis",
+      "column": "Percentage"
+    }
+  ]
+}

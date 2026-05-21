@@ -1,0 +1,38 @@
+{
+  "eval_id": 1,
+  "eval_name": "leadership-report-sentiment-analysis",
+  "prompt": "I have a CSV file with 5,386 voice bot calls for an e-commerce support system. The data includes call duration, issue category, resolution status, CSAT scores, and friction points. I need to understand customer sentiment patterns - specifically which issue types are driving the most negative sentiment and why. Can you analyze this and give me an Excel report I can share with the leadership team?",
+  "assertions": [
+    {
+      "name": "excel-file-generated",
+      "description": "Excel workbook file is successfully created",
+      "check_method": "file_exists"
+    },
+    {
+      "name": "contains-5-sheets",
+      "description": "Excel file contains all 5 required analysis sheets",
+      "check_method": "sheet_count_equals_5"
+    },
+    {
+      "name": "sentiment-analysis-present",
+      "description": "Issue Type Analysis sheet shows sentiment breakdown",
+      "check_method": "sheet_has_column",
+      "sheet": "Issue Type Analysis",
+      "column": "Negative"
+    },
+    {
+      "name": "call-ids-present",
+      "description": "All Calls Data sheet includes Call_ID column for auditing",
+      "check_method": "sheet_has_column",
+      "sheet": "All Calls Data",
+      "column": "Call_ID"
+    },
+    {
+      "name": "csat-scores-included",
+      "description": "CSAT Analysis sheet has CSAT Score data with call references",
+      "check_method": "sheet_has_column",
+      "sheet": "CSAT Analysis",
+      "column": "CSAT_Score"
+    }
+  ]
+}

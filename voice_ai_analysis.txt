@@ -1,0 +1,152 @@
+==========================================================================================
+VOICE AI BOT SUPPORT PERFORMANCE ANALYSIS - Derma Co
+May 19-21, 2026
+==========================================================================================
+
+EXECUTIVE SUMMARY
+------------------------------------------------------------------------------------------
+Total Calls: 3,331
+Avg Duration: 122.9s
+Total Hours: 113.7 hours
+
+
+==========================================================================================
+1. CUSTOMER SATISFACTION (CSAT)
+==========================================================================================
+CSAT Responses: 1,108 (33.3%)
+Average CSAT: 3.05/5
+Median CSAT: 3.0
+
+  1-star:   72 (  6.5%)
+  2-star:  359 ( 32.4%)
+  3-star:  311 ( 28.1%)
+  4-star:  176 ( 15.9%)
+  5-star:  190 ( 17.1%)
+
+Satisfied (4-5): 366 (33.0%)
+Neutral (3): 311 (28.1%)
+Unsatisfied (1-2): 431 (38.9%)
+
+==========================================================================================
+2. RESOLUTION SUCCESS
+==========================================================================================
+Transferred to Human:  532 ( 16.0%)
+Resolved by Bot:  367 ( 11.0%)
+Abandoned by User:  233 (  7.0%)
+Unknown:    5 (  0.2%)
+
+*** SUCCESS RATE: 0.0% ***
+
+==========================================================================================
+3. ESCALATIONS TO HUMAN SUPPORT
+==========================================================================================
+Transferred:  532 ( 16.0%)
+Handled by AI: 2799 ( 84.0%)
+
+Reasons for Transfer:
+  Policy restriction (Human required): 307 (57.7%)
+  Requested by User: 140 (26.3%)
+  Bot failed to understand: 73 (13.7%)
+  Bot failed to understand / Policy restriction (Human required): 2 (0.4%)
+  Bot failed to resolve shipping delay and escalated to human: 1 (0.2%)
+  Bot failed to resolve and human escalation required: 1 (0.2%)
+  Bot failed to confirm delivery of assistance message: 1 (0.2%)
+  Bot failed to provide real-time tracking confirmation: 1 (0.2%)
+  Bot failed to transfer to human due to technical issue: 1 (0.2%)
+  Bot failed to fully resolve return approval issue: 1 (0.2%)
+  Bot failed to resolve delivery handling issue: 1 (0.2%)
+  Bot failed to execute transfer properly: 1 (0.2%)
+
+==========================================================================================
+4. ISSUE CATEGORIZATION
+==========================================================================================
+Unique Categories: 55
+
+  Shipping Delay:  278 (  8.3%)
+  Order Tracking:  207 (  6.2%)
+  Other:  139 (  4.2%)
+  Refund:  111 (  3.3%)
+  Missing Item:  103 (  3.1%)
+  Missing Items:   91 (  2.7%)
+  Cancellation:   80 (  2.4%)
+  Wrong Item:   68 (  2.0%)
+  Missing Order:    4 (  0.1%)
+  Unknown:    4 (  0.1%)
+  Address Change:    2 (  0.1%)
+  Order Cancellation:    2 (  0.1%)
+  Refund / Replacement:    2 (  0.1%)
+  Payment Issue:    2 (  0.1%)
+  Return:    2 (  0.1%)
+  Payment Failure:    2 (  0.1%)
+  Order Modification:    2 (  0.1%)
+  Wrong Item / Pricing Error:    1 (  0.0%)
+  Damaged Item / Refund:    1 (  0.0%)
+  Exchange / Payment Clarification:    1 (  0.0%)
+  Refund / Pricing Discrepancy:    1 (  0.0%)
+  Return Issue:    1 (  0.0%)
+  Return / Damaged Item:    1 (  0.0%)
+  Refund/Return:    1 (  0.0%)
+  Order Placement / Cart Issue:    1 (  0.0%)
+  Refund / Return Confusion:    1 (  0.0%)
+  Damaged Item:    1 (  0.0%)
+  Exchange Delay:    1 (  0.0%)
+  Return Request:    1 (  0.0%)
+  Return Cancellation:    1 (  0.0%)
+  Address Update:    1 (  0.0%)
+  Address Change Request:    1 (  0.0%)
+  Payment Issue / Missing Order:    1 (  0.0%)
+  Refund / Exchange:    1 (  0.0%)
+  Partial Delivery:    1 (  0.0%)
+  Order Cancellation / Return:    1 (  0.0%)
+  Login/OTP Issue:    1 (  0.0%)
+  Shipping / OTP Verification:    1 (  0.0%)
+  Payment Deducted but Order Not Created:    1 (  0.0%)
+  Payment Confirmation:    1 (  0.0%)
+  Refund / Wrong Item:    1 (  0.0%)
+  Payment Confirmation / Missing Order:    1 (  0.0%)
+  Order Issue / Promotional Code:    1 (  0.0%)
+  Wrong Item / Address Error:    1 (  0.0%)
+  Wrong Item / Shipping Delay:    1 (  0.0%)
+  Product Inquiry:    1 (  0.0%)
+  Replacement / Wrong Item:    1 (  0.0%)
+  Order Tracking / Refund:    1 (  0.0%)
+  Order Confirmation / Payment Concern:    1 (  0.0%)
+  Address Change / Cancellation:    1 (  0.0%)
+  Return / Refund:    1 (  0.0%)
+  Return Pickup Delay:    1 (  0.0%)
+  Wrong Item / Incorrect Address:    1 (  0.0%)
+  Account Update:    1 (  0.0%)
+  Refund and Shipping Delay:    1 (  0.0%)
+
+==========================================================================================
+5. BOT PERFORMANCE ASSESSMENT
+==========================================================================================
+  Medium:  569 ( 17.1%)
+  High:  338 ( 10.1%)
+  Low:  214 (  6.4%)
+  Unknown:    9 (  0.3%)
+  High (Solved issue quickly):    2 (  0.1%)
+
+==========================================================================================
+6. KEY AREAS FOR IMPROVEMENT (Friction Points)
+==========================================================================================
+ 1. None (151)
+ 2. Bot did not provide a clear refund timeline or resolution; customer requested human assistance. (1)
+ 3. Bot did not provide a resolution or update on rescheduled delivery; user had to explain multiple times. (1)
+ 4. Delay in refund confirmation; customer concern about exceeding expected 7-day timeline (1)
+ 5. Customer did not receive WhatsApp instructions twice and could not locate the return option on the app/website. (1)
+ 6. User repeated query about dispatch timing; bot repeated standard response; user showed frustration and requested escalation. (1)
+ 7. User frustrated over repeated failed delivery and poor communication; bot switched languages and struggled before resolution (1)
+ 8. Customer expressed frustration about not being contacted by delivery agent and demanded escalation. (1)
+ 9. Customer expressed frustration about a 5-day delivery delay and requested escalation. (1)
+10. User did not respond after initial greeting; conversation failed to progress (1)
+11. Customer repeatedly expressed frustration, perceived the assistant as a bot despite reassurances, and ended the chat feeling unsatisfied. (1)
+12. Customer expressed frustration about refund delay; no reassurance or resolution provided. (1)
+13. User did not state their issue and ended the chat prematurely (1)
+14. Customer expressed frustration over unclear delivery timing and requested escalation. (1)
+15. User did not engage with the bot beyond initial greeting (1)
+16. Customer requested transfer to senior due to incomplete order issue. (1)
+17. User expressed confusion and partial language mixing before resolution (1)
+18. No response from the user and multiple prompts from the bot without engagement (1)
+19. User seemed unsatisfied and interrupted before complete closure. (1)
+20. Bot misunderstood part of customer's speech ('Mercedes Guardia Lavaluna') and needed clarification multiple times (1)
