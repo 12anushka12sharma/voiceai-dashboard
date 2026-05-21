@@ -30,7 +30,7 @@ os.makedirs(UPLOAD_DIR, exist_ok=True)
 db_initialized = False
 
 def init_db():
-    global db_initialized
+    global db_initialized, engine
     if not db_initialized:
         try:
             Base.metadata.create_all(bind=engine)
