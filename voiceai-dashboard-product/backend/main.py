@@ -26,10 +26,18 @@ DEBUG = os.getenv("DEBUG", "True") == "True"
 # Create upload directory
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
-# Database setup
-engine = create_engine(DATABASE_URL, echo=DEBUG)
-SessionLocal = sessionmaker(bind=engine)
-Base.metadata.create_all(bind=engine)
+# Initialize database tables on first startup
+db_initialized = False
+
+def init_db():
+    global db_initialized
+    if not db_initialized:
+        try:
+            Base.metadata.create_all(bind=engine)
+            db_initialized = True
+            print("✓ Database tables initialized successfully")
+        except Exception as e:
+            print(f"⚠ Database initialization error (will retry): {e}")
 
 # FastAPI app
 app = FastAPI(
@@ -37,7 +45,11 @@ app = FastAPI(
     description="Dashboard API for voice AI call analytics",
     version="1.0.0"
 )
-
+# Startup event
+@app.on_event("startup")
+async def startup_event():
+    init_db()
+    print(f"✓ VoiceAI Dashboard API started - DATABASE_URL configured: {bool(os.getenv('DATABASE_URL'))}")
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
